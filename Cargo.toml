@@ -1,0 +1,22 @@
+[package]
+name = "music-theory"
+version = "0.1.0"
+authors = ["Dariusz Dajka <dariusz.dajka@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "music_theory"
+path = "src/lib.rs"
+
+[[bin]]
+name = "music_theory_exe"
+path = "src/main.rs"
+
+
+[dependencies]
+synonym = "0.0.3"
+
+[dev-dependencies]
+test-case = "1.0.0"
