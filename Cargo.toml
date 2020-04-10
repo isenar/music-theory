@@ -11,11 +11,13 @@ name = "music_theory"
 path = "src/lib.rs"
 
 [[bin]]
-name = "music_theory_exe"
+name = "music_theory"
 path = "src/main.rs"
 
 
 [dependencies]
+strum = "0.18.0"
+strum_macros = "0.18.0"
 synonym = "0.0.3"
 
 [dev-dependencies]
